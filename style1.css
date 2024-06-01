@@ -1,0 +1,476 @@
+.search{
+    width: 100%;
+    justify-content: center;
+}
+.search input{
+    width: 50%;
+}
+
+
+
+.prod-display {
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.display-container {
+    height: 100%;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.left-display {
+    width: 40%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product-image {
+    width: 100%;
+    height: 85%;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-display {
+    width: 55%;
+    height: 80%;
+    padding: .1rem .7rem;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: .4rem 0 .5rem 0;
+}
+
+.assured {
+    font-weight: 500;
+    color: gray;
+    font-size: 1rem;
+}
+
+.product-star {
+    color: gold;
+    margin: 0 .4rem .1rem 0rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: .7rem 0;
+}
+
+.del-prod {
+    font-size: .9rem;
+    color: gray;
+}
+
+.sizes {
+    color: gray;
+    margin: .5rem 0;
+    font-weight: 600;
+}
+
+.quantity {
+    color: gray;
+    margin: .5rem 0;
+    font-weight: 600;
+}
+
+#size {
+    margin-left: 1.8rem;
+    padding: .3rem .4rem;
+    background-color: rgb(211, 211, 211);
+}
+
+#quan {
+    padding: .3rem 0rem;
+    width: 6.8rem;
+    background-color: rgb(211, 211, 211);
+    border: .2px solid black;
+}
+
+.right-display h4 {
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin: 2.5rem 0 .3rem 0;
+    text-decoration: dotted;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.product-description {
+    color: rgb(96, 96, 96);
+    font-size: .95rem;
+}
+.buy-now{
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    background-color: blueviolet;
+    font-weight: 700;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+.related{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.round-circle{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50rem;
+    background-color: goldenrod;
+}
+.related-head{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+.review{
+    width: 100%;
+    height: 61vh;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.review-container{
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    overflow: scroll;
+    align-items: center;
+}
+.review-card{
+    height: 95%;
+    width: 18rem;
+    padding: .4rem 0;
+    border-radius: 9px;
+    background-color: rgb(237, 237, 237);
+    box-shadow: 2px 2px 3px black, -1px -1px 2px black;
+    margin: 0 3rem;
+}
+.card-contain{
+    
+}
+.upper-rev{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.bottom-rev{
+    width: 100%;
+    height: 79%;
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(229, 229, 229);
+    
+}
+.rev{
+    overflow: scroll;
+}
+.rev::-webkit-scrollbar{
+    display: none;
+}
+.review-container::-webkit-scrollbar{
+    display: none;
+}
+.name{
+    font-size: .9rem;
+    font-weight: 700;
+    margin: auto;
+}
+.pub-date{
+    color: gray;
+    font-size: .8rem;
+    font-weight: 500;
+}
+.date{
+    color: gray;
+    font-size: .9rem;
+}
+.footer1{
+    padding: .9rem 0;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 400;
+}
+.feedback{
+    width: 100%;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.feedback button{
+    padding: .7rem 1rem;
+    background-color: rgb(0, 0, 152);
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    border-color: white;
+}
+.payment{
+    width: 70vw;
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-color: white;
+    box-shadow: 1.5px 1.5px 3px black;
+    transform: translate(-50%, -200vh);
+    transition: all .4s linear ;
+}
+.gateway{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bill-add{
+    width: 49.5%;
+}
+.payment-info{
+    width: 49.5%;
+}
+.payment h2{
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+.payment label{
+    display: block;
+    font-weight: 300;
+    margin-bottom: .7rem;
+}
+.payment input{
+    width: 95%;
+    padding: .25rem 0;
+    margin-bottom: 1rem;
+    border: hidden;
+    border-bottom: .95px solid gray;
+    outline: none;
+}
+.two-field{
+    width: 100%;
+}
+.state{
+    width: 49.5%;
+}
+.card-logo{
+    width: 30%;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    border-radius: 4px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.payment button{
+    width: 80%;
+    background-color: rgb(0, 219, 0);
+    padding: .6rem .1rem;
+    margin: 1rem 0;
+    color: white;
+    font-weight: 600;
+    border: none;
+    
+}
+.can-btn{
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    font-size: 1.15rem;
+    padding: .2rem;
+    cursor: pointer;
+    
+}
+.can-btn:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.done{
+    background-color: white;
+    width: 45vw;
+    height: 40vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    box-shadow: 2px 2px 3px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    transition-delay: 2s;
+}
+.payment-done{
+    width: 20%;
+    height: 20%;
+    margin-bottom: .5rem;
+    margin-top: -3rem;
+}
+.payment-done img{
+    width: 100%;
+    height: 100%;
+    animation: scaleup .5s infinite alternate linear;
+}
+.done h3{
+    font-size: 2rem;
+}
+.done p{
+    color: gray;
+    font-weight: 700;
+}
+
+.home-btn{
+    padding: .4rem .9rem;
+    background-color: rgb(0, 136, 255);
+    font-weight: 700;
+    color: white;
+    border: none;
+    margin-top: .9rem;
+    border-radius: 8px;
+}
+
+@keyframes scaleup {
+    from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.4);
+      }
+    
+}
+
+.pre-loder{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    right: 0;left: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.loder{
+    width: 10%;
+    height: 20%;
+    animation: rotate .8s infinite linear;
+}
+.loder img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1150px){
+    .prod-display{
+        height: 45vh;
+    }
+    .review{
+        height: 25vh;
+    }
+    .left-display{
+        height: 70%;
+    }
+    .review-card{
+        margin: 0 3rem;
+    }
+    #quan{
+        padding: .3rem 4.7rem;
+    }
+
+
+
+}
+
+@media (max-width: 760px){
+    .left-contain ul{
+        display: none;
+
+    }
+    .prod-display{
+        height: 70vh;
+    }
+    
+    .right-contain{
+        display: none;
+    }
+    .display-container{
+        height: 100%;
+        flex-direction: column;
+    }
+    .right-display{
+        width: 100%;
+    }
+    .related{
+        margin-top: 7vh;
+    }
+    .review{
+        height: 37vh;
+        margin-top: -1.5rem;
+    }
+    .gateway{
+        flex-direction: column;
+    }
+    .sm-fnt::placeholder{
+        font-size: 1rem;
+    }
+    .card-logo{
+        width: 80%;
+    }
+    .done{
+        width: 80vw;
+    }
+    .nav-contain{
+        width: 100%;
+    }
+    .search input{
+        width: 70%;
+        padding: .6rem 0;
+    }
+}
+
